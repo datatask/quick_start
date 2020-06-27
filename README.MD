@@ -3,7 +3,7 @@
 Datatask permet d'automatiser un Datalake pour le faire passer à la vitesse supérieure. Dans cette courte introduction, vous verrez qu'il est possible de déployer des jobs pour traiter vos données en quelques clicks !
 
 Pour obtenir votre sandbox et essayer Datatask c'est ici : https://datatask.io
-Le code de cet exemple est disponible dans ce repo : https://github.com/datatask/quick_start
+Les vidéos associées à ces codes sont là : https://trkit.io/s/DTaKlwzP
 
 ## Exemples
 
