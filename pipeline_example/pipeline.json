@@ -1,0 +1,25 @@
+{
+    "name":"my_pipeline",
+    "original":"pipeline_example",
+    "tasks":[
+        {
+            "name" :"job1",
+            "namespacetask":"quick_start/job_sleep"
+        },
+        {
+            "name" :"job2",
+            "namespacetask":"quick_start/job_sleep",
+            "dependance": ["job1"]
+        },
+        {
+            "name" :"job3",
+            "namespacetask":"quick_start/job_sleep",
+            "dependance": ["job1"]
+        },
+        {
+            "name" :"job4",
+            "namespacetask":"quick_start/job_end_pipeline",
+            "dependance": ["job2","job3"]
+        }
+    ]
+}

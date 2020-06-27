@@ -1,0 +1,12 @@
+{
+    "labels": "app:fibonacci",
+    "type": "job",
+    "name": "fibonacci",
+    "image-destination": "eu.gcr.io/datataskio/fibonacci:0.1",
+    "cmd": ["python","/code/fibbo.py","10"],
+    "cpu-limit": "0.20",
+    "memory-limit": "200Mi",
+    "cpu-request": "0.15",
+    "memory-request": "150Mi",
+    "schedule": ""
+}

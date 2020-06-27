@@ -1,0 +1,17 @@
+{
+    "labels": "app:helloworld",
+    "type": "service",
+    "published" : {
+	    "access": "affini-tech",
+    	"prefix": "/helloworld/"
+	},
+    "name": "helloworld",
+    "image-destination": "eu.gcr.io/datataskio/hello_world:0.1",
+    "image-pull-policy": "Always",
+    "env": [ 
+        {"name":"FIRST_NAME","value":"Marc"}
+    ],
+    "cmd": ["/opt/miniconda/bin/python","/code/hello_world.py"],
+    "replicas": 1,
+    "container-port": 5000
+}
