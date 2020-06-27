@@ -11,4 +11,4 @@ Le code de cet exemple est disponible dans ce repo : https://github.com/datatask
 
 - Pipeline_example : Comment orchestrer des travaux dans la plateforme ? 
 
-- Service_example : Comment exposer un service web en quelques clicks pour déployer une application ou une API. 
+- Service_example : Comment exposer un service web en quelques clicks pour déployer une application ou une API ? 
