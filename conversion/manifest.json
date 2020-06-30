@@ -1,0 +1,7 @@
+{
+    "labels": "app:dataextractiondemo",
+    "type": "job",
+    "name": "dataextractiondemo",
+    "image-destination": "eu.gcr.io/datataskio/dataextractiondemo:0.1",
+    "cmd": ["python","/code/Extract.py"]
+}

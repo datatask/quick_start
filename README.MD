@@ -13,3 +13,5 @@ Les vidéos associées à ces codes sont là : https://trkit.io/s/DTaKlwzP
 - Pipeline_example : Comment orchestrer des travaux dans la plateforme ? 
 
 - Service_example : Comment exposer un service web en quelques clicks pour déployer une application ou une API ? 
+
+- Conversion_notebook_example : Comment convertir un Notebook python pour le deployer comme job ?
